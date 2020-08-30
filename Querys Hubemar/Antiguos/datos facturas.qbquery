@@ -1,0 +1,2 @@
+﻿select numero_factura, codigo_moneda, total_factura_actual, total_factura_actual_usd, factor from cabeza_facturas
+where numero_do="IB310298"

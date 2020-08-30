@@ -1,0 +1,4 @@
+﻿update  formularios_dis
+left outer join estados_do on formularios_dis.numero_do=estados_do.numero_do
+set PROGRAMA_AUTORIZADO="RR3492"
+WHERE ESTADOS_DO.id_importador=909 AND formularios_dis.CODIGO_MODALIDAD="C193"

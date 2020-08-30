@@ -1,0 +1,4 @@
+﻿update  detalles_facturas
+left outer join cabeza_facturas on cabeza_facturas.id_cabeza_factura=detalles_facturas.id_cabeza_factura
+set DESCRIPCION_MINIMA_DI=NULL
+WHERE numero_do="HA510041"

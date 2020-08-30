@@ -1,0 +1,1 @@
+﻿SELECT * FROM ex_solicitudes_aut_embarques  where numero_do="HC350252"

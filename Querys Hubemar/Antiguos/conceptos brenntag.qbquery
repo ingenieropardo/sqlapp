@@ -1,0 +1,1 @@
+﻿SELECT nombre_concepto, nombre_ingles, c.* FROM conceptos_gtos_ings c;

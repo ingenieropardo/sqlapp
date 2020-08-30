@@ -1,0 +1,2 @@
+﻿SELECT * FROM cl_di_temporal
+WHERE  numero_aceptacion="872016000004159" or  numero_aceptacion="872016M00000913" or numero_aceptacion="872016M00001432"

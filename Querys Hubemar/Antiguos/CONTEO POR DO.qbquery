@@ -1,0 +1,4 @@
+﻿select DATE_FORMAT(FECHA_APERTURA, '%d/%m/%Y') FECHA, COUNT(NUMERO_DO) OPERACIONES from estados_do
+where fecha_apertura>"2016-12-31" AND ANULADO="N" AND TIPO_REGIMEN="I"
+GROUP BY 1
+ORDER BY 1

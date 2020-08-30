@@ -1,0 +1,2 @@
+﻿SELECT * FROM cl_di_cuotas_temporales
+where valor_cuota_usd=787.77	

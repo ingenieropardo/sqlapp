@@ -1,0 +1,4 @@
+﻿select numero_do, FECHA_LEVANTE
+
+FROM FORMULARIOS_DIS
+WHERE DATE_FORMAT(FECHA_LEVANTE, '%d/%m/%Y')= DATE_FORMAT(NOW(),'%d/%m/%Y')

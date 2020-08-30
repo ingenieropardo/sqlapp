@@ -1,0 +1,3 @@
+﻿select df.* from detalles_facturas df
+left outer join cabeza_facturas cf on cf.id_cabeza_factura=df.id_cabeza_factura
+where numero_do="HA510041"
